@@ -1,0 +1,11 @@
+open github.com and download a malware file and save it on desktop
+=> open filescan in browser 
+=>upload malware file
+we will get output as interrupted due to an internal error 
+=> upload text file
+we will get output as no threat 
+=>next open virustotal.com in browser 
+=> upload malware file
+we will get the score that are security vendors flagged this file as malicious 
+=> upload text file 
+we will get score as 0 as indicates nomalicious in the file 
