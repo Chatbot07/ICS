@@ -1,0 +1,10 @@
+open kali linux 
+$ sudo service apache2 start
+$ sudo service mysql start 
+$ if config // it will show ip address 
+=> now open windows cmd
+>ip config 
+ => in kali
+$ sudo iptables -D INPUT -S 192.168.81.1 -j DROP 
+now we need to connect both kali & cmd
+> ping 192.168.81.1
